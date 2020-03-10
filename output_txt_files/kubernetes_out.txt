@@ -1,1 +1,16 @@
-<paste log output from Kubernetes-mediated prediction, here>
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "machinelearning-micro-srv" already exists
+NAME                                         READY   STATUS             RESTARTS   AGE
+machinelearning-micro-srv-676df55cbd-qsb47   0/1     ImagePullBackOff   0          5m55s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+Handling connection for 8000
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
