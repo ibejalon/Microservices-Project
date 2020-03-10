@@ -1,4 +1,5 @@
 # Microservices-project-udacity
+[![CircleCI](https://circleci.com/gh/ibejalon/microservices-project-uda.svg?style=svg)](https://circleci.com/gh/ibejalon/microservices-project-uda)
 
 This project operationalize a Python flask app that is used to predict housing prices through API calls.
 
