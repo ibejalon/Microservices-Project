@@ -7,14 +7,19 @@ The repository contains a .circleci folder, a README.md file, a Dockerfile and M
 
 It also contains an output text files: docker_out.txt and kubernetes_out.txt that include the log output after a prediction is made.
 
-Setup the Environment
+#Environement Setup
+
 Create a virtualenv and activate it
 Run make install to install the necessary dependencies
-Running app.py
+
+#Running app.py
+
 Standalone: python app.py
 Run in Docker: ./run_docker.sh
 Run in Kubernetes: ./run_kubernetes.sh
-Kubernetes Steps
+
+#Kubernetes 
+
 Setup and Configure Docker locally
 Setup and Configure Kubernetes locally
 Create Flask app in Container
