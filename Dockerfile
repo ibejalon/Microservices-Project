@@ -9,7 +9,7 @@ WORKDIR /app
 
 ## Step 2:
 # Copy source code to working directory
-COPY . /app
+COPY . app.py /app/
 
 ## Step 3:
 # run make file to install from requirements and perform other lint instructions
