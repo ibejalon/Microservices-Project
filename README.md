@@ -1,5 +1,4 @@
 # Microservices-project-udacity
-Udacity Microservices Project
 
 This project operationalize a Python flask app that is used to predict housing prices through API calls.
 
